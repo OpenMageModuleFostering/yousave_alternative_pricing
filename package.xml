@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>YouSave_Alternative_Pricing</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Calculates and displays percentage and amount customer save if special price exists for product.</summary>
+    <description>Calculates and displays percentage and amount customer save if special price exists for product.&#xD;
+Tested on multi store version.</description>
+    <notes>Work with simple products only.&#xD;
+Need improvement to work with currency displayed  as 1 000 for Russian rubles or 1,000.</notes>
+    <authors><author><name>Gershon</name><user>AMarketing</user><email>gershon.webgate@gmail.com</email></author></authors>
+    <date>2014-02-26</date>
+    <time>14:22:35</time>
+    <contents><target name="magelocal"><dir name="ILex"><dir name="YouSave"><dir name="Helper"><file name="Data.php" hash="75c0cf94463d816dcb7dc71e9044d701"/></dir><dir name="etc"><file name="adminhtml.xml" hash="6e4c5f1da113b29b989c58877d615baa"/><file name="config.xml" hash="e9348e648f112b698337b6962865daa1"/><file name="system.xml" hash="5352a2f66d174cfe658beaae378f8233"/></dir><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ILex_YouSave.xml" hash="6ad940bd02b204cb03ac07f971d3d140"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="yousave.xml" hash="223fb349999a16a6ef866b5ea182b889"/></dir><dir name="template"><dir name="yousave"><dir name="product"><file name="price.phtml" hash="90cf1159b838685c5711eb4a61638ee1"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

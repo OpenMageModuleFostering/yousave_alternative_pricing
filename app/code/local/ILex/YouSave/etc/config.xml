@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <ILex_YouSave>
+      <version>0.1.0</version>
+    </ILex_YouSave>
+  </modules>
+  <global>
+    <helpers>
+      <yousave>
+        <class>ILex_YouSave_Helper</class>
+      </yousave>
+    </helpers>
+  </global>
+  <frontend>
+      <layout>
+          <updates>
+              <yousave>
+                  <file>yousave.xml</file>
+              </yousave>
+          </updates>
+      </layout>
+  </frontend>
+</config> 

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/YouSave_Alternative_Pricing",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Calculates and displays percentage and amount customer save if special price exists for product.",
+    "authors": [
+    {
+        "name": "Gershon",
+        "email": "gershon.webgate@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
